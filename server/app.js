@@ -1,5 +1,6 @@
 require("dotenv").config();
 require("./db");
+require('./db/seed/models_init');
 
 const express = require("express");
 const app = express();
